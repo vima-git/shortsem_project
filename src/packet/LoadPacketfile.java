@@ -76,17 +76,7 @@ public class LoadPacketfile {
         return obj1;
      }
      
-        /*ArrayList<Packet> obj= arraylist;
-        System.out.println("src ip");
-            for( int i=0;i< obj.size();++i){
-               if(obj.get(i).getClass().equals(TCPPacket.class))
-               //System.out.println(((TCPPacket)obj.get(i)).src_ip);
-               System.out.println(((TCPPacket)obj.get(i)).src_ip+"\t\t"+((TCPPacket)obj.get(i).;
-               //if(obj.get(i).getClass().equals(UDPPacket.class))
-               //System.out.println(((UDPPacket)obj.get(i)).src_ip); 
-               //System.out.println(((UDPPacket)obj.get(i)).src_ip+"\t\t"+((UDPPacket)obj.get(i)).dst_ip);    
-            }*/
-     
+        
      
      public static ArrayList<Packet> Some_eq(ArrayList<Packet> obj,int some, Object size) throws UnknownHostException{
        
